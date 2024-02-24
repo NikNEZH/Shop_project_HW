@@ -1,0 +1,15 @@
+INFO 2024-02-19 21:07:00,265 autoreload 484 20736 Watching for file changes with StatReloader
+WARNING 2024-02-19 21:07:02,209 log 484 2572 Not Found: /
+WARNING 2024-02-19 21:07:02,210 basehttp 484 2572 "GET / HTTP/1.1" 404 2170
+INFO 2024-02-19 21:07:16,743 basehttp 484 2572 "GET /shop HTTP/1.1" 301 0
+INFO 2024-02-19 21:07:16,745 views 484 5932 Info page object accessed
+INFO 2024-02-19 21:07:16,752 basehttp 484 5932 "GET /shop/ HTTP/1.1" 200 1693
+INFO 2024-02-19 21:07:16,769 basehttp 484 22924 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2024-02-19 21:07:16,811 basehttp 484 5932 "GET /static/img/logo.png HTTP/1.1" 200 7903
+WARNING 2024-02-19 21:07:16,811 basehttp 484 22924 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-19 21:07:19,421 views 484 5932 Info page object accessed
+INFO 2024-02-19 21:07:19,423 basehttp 484 5932 "GET /shop/about_us/ HTTP/1.1" 200 3192
+WARNING 2024-02-19 21:07:19,481 basehttp 484 5932 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-19 21:07:20,315 views 484 22180 Info page object accessed
+INFO 2024-02-19 21:07:20,315 basehttp 484 22180 "GET /shop/ HTTP/1.1" 200 1693
+WARNING 2024-02-19 21:07:20,350 basehttp 484 22180 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
