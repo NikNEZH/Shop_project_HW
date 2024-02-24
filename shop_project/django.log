@@ -13,3 +13,220 @@ WARNING 2024-02-19 21:07:19,481 basehttp 484 5932 "GET /static/main/img/Logo_2.p
 INFO 2024-02-19 21:07:20,315 views 484 22180 Info page object accessed
 INFO 2024-02-19 21:07:20,315 basehttp 484 22180 "GET /shop/ HTTP/1.1" 200 1693
 WARNING 2024-02-19 21:07:20,350 basehttp 484 22180 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-24 20:36:55,203 autoreload 1380 19484 Watching for file changes with StatReloader
+WARNING 2024-02-24 20:36:57,717 log 1380 9608 Not Found: /
+WARNING 2024-02-24 20:36:57,717 basehttp 1380 9608 "GET / HTTP/1.1" 404 2170
+WARNING 2024-02-24 20:36:57,858 log 1380 9608 Not Found: /favicon.ico
+WARNING 2024-02-24 20:36:57,859 basehttp 1380 9608 "GET /favicon.ico HTTP/1.1" 404 2221
+INFO 2024-02-24 21:20:48,861 autoreload 19952 7548 Watching for file changes with StatReloader
+ERROR 2024-02-24 21:20:51,469 log 19952 18304 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 5, in order
+    return render(request,'myapp_2/')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loaders\base.py", line 23, in get_template
+    contents = self.get_contents(origin)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 26, in get_contents
+    return origin.loader.get_contents(origin)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loaders\filesystem.py", line 22, in get_contents
+    with open(origin.name, encoding=self.engine.file_charset) as fp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Никита\\Desktop\\DJANGO\\ShopProject\\Shop_project_HW\\shop_project\\myapp_2\\templates\\myapp_2'
+ERROR 2024-02-24 21:20:51,474 basehttp 19952 18304 "GET / HTTP/1.1" 500 111024
+INFO 2024-02-24 21:22:33,243 autoreload 19952 7548 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-24 21:22:33,674 autoreload 20784 18128 Watching for file changes with StatReloader
+INFO 2024-02-24 21:22:48,096 autoreload 20784 18128 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-24 21:22:48,501 autoreload 20244 4240 Watching for file changes with StatReloader
+INFO 2024-02-24 21:22:53,782 autoreload 20244 4240 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-24 21:22:54,240 autoreload 6632 2664 Watching for file changes with StatReloader
+ERROR 2024-02-24 21:22:59,633 log 6632 12576 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 5, in order
+    return render(request, "myapp_2/order_client.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 528, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'myapp_2/main.html'> must be the first tag in the template.
+ERROR 2024-02-24 21:22:59,637 basehttp 6632 12576 "GET / HTTP/1.1" 500 125650
+INFO 2024-02-24 21:29:00,159 basehttp 6632 10664 "GET / HTTP/1.1" 200 1707
+INFO 2024-02-24 21:29:00,235 basehttp 6632 17348 "GET /static/img/logo.png HTTP/1.1" 200 7903
+INFO 2024-02-24 21:29:00,235 basehttp 6632 10664 "GET /static/css/base.css HTTP/1.1" 200 9947
+WARNING 2024-02-24 21:29:00,306 basehttp 6632 10664 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+WARNING 2024-02-24 21:29:00,669 basehttp 6632 17348 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-24 21:30:35,485 basehttp 6632 19960 "GET / HTTP/1.1" 200 1707
+WARNING 2024-02-24 21:30:35,542 basehttp 6632 19960 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-24 21:30:39,443 basehttp 6632 19544 "GET / HTTP/1.1" 200 1707
+WARNING 2024-02-24 21:30:39,482 basehttp 6632 19544 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+WARNING 2024-02-24 21:31:33,783 log 6632 1920 Not Found: /order_client
+WARNING 2024-02-24 21:31:33,784 basehttp 6632 1920 "GET /order_client HTTP/1.1" 404 2327
+INFO 2024-02-24 21:31:42,979 basehttp 6632 1920 "GET / HTTP/1.1" 200 1707
+WARNING 2024-02-24 21:31:43,024 basehttp 6632 1920 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-24 21:33:01,372 basehttp 6632 2936 "GET / HTTP/1.1" 200 1767
+WARNING 2024-02-24 21:33:01,424 basehttp 6632 2936 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-24 22:25:26,330 autoreload 6632 2664 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-24 22:25:27,158 autoreload 4780 7440 Watching for file changes with StatReloader
+INFO 2024-02-24 22:26:25,255 autoreload 4780 7440 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-24 22:26:25,944 autoreload 12764 8892 Watching for file changes with StatReloader
+INFO 2024-02-24 22:26:55,685 autoreload 12764 8892 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-24 22:26:56,260 autoreload 21216 6404 Watching for file changes with StatReloader
+INFO 2024-02-24 22:27:12,576 autoreload 21216 6404 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-24 22:27:12,969 autoreload 19920 20896 Watching for file changes with StatReloader
+INFO 2024-02-24 22:27:29,437 autoreload 19920 20896 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-24 22:27:29,862 autoreload 2928 16596 Watching for file changes with StatReloader
+INFO 2024-02-24 22:27:43,262 autoreload 2928 16596 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-24 22:27:43,663 autoreload 11724 7440 Watching for file changes with StatReloader
+INFO 2024-02-24 22:28:09,237 autoreload 11724 7440 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-24 22:28:09,790 autoreload 17768 11248 Watching for file changes with StatReloader
+INFO 2024-02-24 22:30:15,185 autoreload 17768 11248 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-24 22:30:15,950 autoreload 21440 1416 Watching for file changes with StatReloader
+INFO 2024-02-24 22:31:11,183 autoreload 21440 1416 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-24 22:31:11,614 autoreload 1796 20008 Watching for file changes with StatReloader
+INFO 2024-02-24 22:31:43,821 basehttp 1796 5844 "GET / HTTP/1.1" 200 1918
+INFO 2024-02-24 22:31:43,832 basehttp 1796 5844 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2024-02-24 22:31:43,832 basehttp 1796 10492 "GET /static/img/logo.png HTTP/1.1" 304 0
+WARNING 2024-02-24 22:31:43,919 basehttp 1796 10492 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-24 22:36:18,990 autoreload 5036 18500 Watching for file changes with StatReloader
+INFO 2024-02-24 22:36:20,722 basehttp 5036 6884 "GET / HTTP/1.1" 200 1918
+INFO 2024-02-24 22:36:20,784 basehttp 5036 6884 "GET /static/img/logo.png HTTP/1.1" 200 7903
+WARNING 2024-02-24 22:36:20,858 basehttp 5036 6884 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-24 22:36:22,726 basehttp 5036 2700 "GET / HTTP/1.1" 200 1918
+WARNING 2024-02-24 22:36:22,764 basehttp 5036 2700 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-24 22:37:00,619 basehttp 5036 9028 "GET / HTTP/1.1" 200 1918
+WARNING 2024-02-24 22:37:00,664 basehttp 5036 9028 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-24 22:38:43,858 autoreload 5036 18500 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-24 22:38:44,285 autoreload 18492 19840 Watching for file changes with StatReloader
+INFO 2024-02-24 22:40:32,938 autoreload 19808 3640 Watching for file changes with StatReloader
+INFO 2024-02-24 22:41:32,849 autoreload 19808 3640 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\urls.py changed, reloading.
+INFO 2024-02-24 22:41:33,397 autoreload 10796 8788 Watching for file changes with StatReloader
+INFO 2024-02-24 22:41:33,773 basehttp 10796 18516 "GET / HTTP/1.1" 200 2076
+WARNING 2024-02-24 22:41:33,854 basehttp 10796 18516 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+WARNING 2024-02-24 22:42:17,137 basehttp 10796 9524 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+WARNING 2024-02-24 22:42:24,628 log 10796 2768 Not Found: /order_client/<int:client_id>/
+WARNING 2024-02-24 22:42:24,630 basehttp 10796 2768 "GET /order_client/%3Cint:client_id%3E/ HTTP/1.1" 404 2394
+WARNING 2024-02-24 22:42:43,079 log 10796 2768 Not Found: /1/
+WARNING 2024-02-24 22:42:43,079 basehttp 10796 2768 "GET /1/ HTTP/1.1" 404 2297
+WARNING 2024-02-24 22:42:51,698 log 10796 2768 Not Found: /1
+WARNING 2024-02-24 22:42:51,699 basehttp 10796 2768 "GET /1 HTTP/1.1" 404 2294
+WARNING 2024-02-24 22:43:23,007 log 10796 2768 Not Found: /order_client/1
+WARNING 2024-02-24 22:43:23,007 basehttp 10796 2768 "GET /order_client/1 HTTP/1.1" 404 2333
+WARNING 2024-02-24 22:43:25,496 log 10796 2768 Not Found: /order_client/1
+WARNING 2024-02-24 22:43:25,497 basehttp 10796 2768 "GET /order_client/1 HTTP/1.1" 404 2333
+INFO 2024-02-24 22:43:49,288 autoreload 10796 8788 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\urls.py changed, reloading.
+INFO 2024-02-24 22:43:49,792 autoreload 5908 5604 Watching for file changes with StatReloader
+WARNING 2024-02-24 22:43:52,760 log 5908 10548 Not Found: /order_client/1
+WARNING 2024-02-24 22:43:52,761 basehttp 5908 10548 "GET /order_client/1 HTTP/1.1" 404 2346
+WARNING 2024-02-24 22:43:55,419 log 5908 10548 Not Found: /order_client/1
+WARNING 2024-02-24 22:43:55,420 basehttp 5908 10548 "GET /order_client/1 HTTP/1.1" 404 2346
+INFO 2024-02-24 22:43:58,334 basehttp 5908 10548 "GET /order_client/ HTTP/1.1" 200 2076
+WARNING 2024-02-24 22:43:58,396 basehttp 5908 10548 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+WARNING 2024-02-24 22:44:02,321 log 5908 21048 Not Found: /order_client/2
+WARNING 2024-02-24 22:44:02,322 basehttp 5908 21048 "GET /order_client/2 HTTP/1.1" 404 2346
+WARNING 2024-02-24 22:44:07,194 log 5908 21048 Not Found: /order_client1
+WARNING 2024-02-24 22:44:07,195 basehttp 5908 21048 "GET /order_client1 HTTP/1.1" 404 2343
+WARNING 2024-02-24 22:44:12,633 log 5908 21048 Not Found: /order_client-1
+WARNING 2024-02-24 22:44:12,634 basehttp 5908 21048 "GET /order_client-1 HTTP/1.1" 404 2346
+WARNING 2024-02-24 22:44:18,778 log 5908 21048 Not Found: /order_client/1
+WARNING 2024-02-24 22:44:18,779 basehttp 5908 21048 "GET /order_client/1 HTTP/1.1" 404 2346
+WARNING 2024-02-24 23:10:27,459 log 5908 21068 Not Found: /order_client/1
+WARNING 2024-02-24 23:10:27,460 basehttp 5908 21068 "GET /order_client/1 HTTP/1.1" 404 2346
+WARNING 2024-02-24 23:10:44,283 log 5908 21068 Not Found: /order_client/'order_client/<int:client_id>/1
+WARNING 2024-02-24 23:10:44,284 basehttp 5908 21068 "GET /order_client/'order_client/%3Cint:client_id%3E/1 HTTP/1.1" 404 2467
+WARNING 2024-02-24 23:10:49,735 log 5908 21068 Not Found: /order_client/'order_client/<int:client_id>/
+WARNING 2024-02-24 23:10:49,735 basehttp 5908 21068 "GET /order_client/'order_client/%3Cint:client_id%3E/ HTTP/1.1" 404 2464
+WARNING 2024-02-24 23:11:14,969 log 5908 21068 Not Found: /order_client/order_client/1/
+WARNING 2024-02-24 23:11:14,970 basehttp 5908 21068 "GET /order_client/order_client/1/ HTTP/1.1" 404 2388
+WARNING 2024-02-24 23:11:18,161 log 5908 21068 Not Found: /order_client/order_client/1/
+WARNING 2024-02-24 23:11:18,162 basehttp 5908 21068 "GET /order_client/order_client/1/ HTTP/1.1" 404 2388
+INFO 2024-02-24 23:11:23,855 basehttp 5908 21068 "GET /order_client/ HTTP/1.1" 200 2076
+INFO 2024-02-24 23:11:23,873 basehttp 5908 1716 "GET /static/img/logo.png HTTP/1.1" 304 0
+INFO 2024-02-24 23:11:23,874 basehttp 5908 21068 "GET /static/css/base.css HTTP/1.1" 304 0
+WARNING 2024-02-24 23:11:23,922 basehttp 5908 21068 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+WARNING 2024-02-24 23:15:36,884 log 5908 1716 Not Found: /order_client/client/1
+WARNING 2024-02-24 23:15:36,884 basehttp 5908 1716 "GET /order_client/client/1 HTTP/1.1" 404 2367
+WARNING 2024-02-24 23:15:41,306 log 5908 1716 Not Found: /order_client/client/1/
+WARNING 2024-02-24 23:15:41,307 basehttp 5908 1716 "GET /order_client/client/1/ HTTP/1.1" 404 2370
+INFO 2024-02-24 23:16:37,380 autoreload 5908 5604 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-24 23:16:38,035 autoreload 12664 1416 Watching for file changes with StatReloader
+INFO 2024-02-24 23:20:56,370 autoreload 12664 1416 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\urls.py changed, reloading.
+INFO 2024-02-24 23:20:57,230 autoreload 19752 20712 Watching for file changes with StatReloader
+INFO 2024-02-24 23:21:27,760 autoreload 19752 20712 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\urls.py changed, reloading.
+INFO 2024-02-24 23:21:28,162 autoreload 2368 11332 Watching for file changes with StatReloader
+INFO 2024-02-24 23:21:56,706 basehttp 2368 20932 "GET /order_client/client/1/ HTTP/1.1" 200 2076
+WARNING 2024-02-24 23:21:56,815 basehttp 2368 20932 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+WARNING 2024-02-24 23:22:02,914 log 2368 4660 Not Found: /order_client/client/0/
+WARNING 2024-02-24 23:22:02,915 basehttp 2368 4660 "GET /order_client/client/0/ HTTP/1.1" 404 2635
+INFO 2024-02-24 23:22:10,426 basehttp 2368 4660 "GET /order_client/client/2/ HTTP/1.1" 200 1918
+WARNING 2024-02-24 23:22:10,493 basehttp 2368 4660 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-24 23:22:16,151 basehttp 2368 4512 "GET /order_client/client/3/ HTTP/1.1" 200 1918
+WARNING 2024-02-24 23:22:16,211 basehttp 2368 4512 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-24 23:22:21,487 basehttp 2368 9052 "GET /order_client/client/1/ HTTP/1.1" 200 2076
+WARNING 2024-02-24 23:22:21,530 basehttp 2368 9052 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-24 23:22:46,643 autoreload 2368 11332 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\urls.py changed, reloading.
+INFO 2024-02-24 23:22:47,036 autoreload 3632 20072 Watching for file changes with StatReloader

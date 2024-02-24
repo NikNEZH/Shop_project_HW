@@ -1,0 +1,27 @@
+{% extends 'myapp_2/main.html' %}
+
+{% block title %}Заказы клиентов{% endblock %}
+
+{% block content %}
+    <h1>Products Ordered</h1>
+    <h2>Last 7 Days:</h2>
+    <ul>
+        {% for product in products_last_week %}
+            <li>{{ product.name }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Last 30 Days:</h2>
+    <ul>
+        {% for product in products_last_month %}
+            <li>{{ product.name }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Last 365 Days:</h2>
+    <ul>
+        {% for product in products_last_year %}
+            <li>{{ product.name }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
