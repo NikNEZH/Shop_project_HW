@@ -230,3 +230,703 @@ INFO 2024-02-24 23:22:21,487 basehttp 2368 9052 "GET /order_client/client/1/ HTT
 WARNING 2024-02-24 23:22:21,530 basehttp 2368 9052 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
 INFO 2024-02-24 23:22:46,643 autoreload 2368 11332 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\urls.py changed, reloading.
 INFO 2024-02-24 23:22:47,036 autoreload 3632 20072 Watching for file changes with StatReloader
+INFO 2024-02-26 00:55:59,159 autoreload 24124 10340 Watching for file changes with StatReloader
+INFO 2024-02-26 00:57:06,890 autoreload 20592 23616 Watching for file changes with StatReloader
+INFO 2024-02-26 00:58:18,846 autoreload 3504 23836 Watching for file changes with StatReloader
+INFO 2024-02-26 00:58:50,503 autoreload 3504 23836 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\settings.py changed, reloading.
+INFO 2024-02-26 00:58:50,911 autoreload 23892 14548 Watching for file changes with StatReloader
+INFO 2024-02-26 00:59:36,705 autoreload 23892 14548 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\settings.py changed, reloading.
+INFO 2024-02-26 00:59:37,108 autoreload 21704 9608 Watching for file changes with StatReloader
+INFO 2024-02-26 00:59:57,117 autoreload 3236 15800 Watching for file changes with StatReloader
+INFO 2024-02-26 01:00:30,493 autoreload 22152 8676 Watching for file changes with StatReloader
+WARNING 2024-02-26 01:00:33,469 log 22152 23716 Not Found: /
+WARNING 2024-02-26 01:00:33,469 basehttp 22152 23716 "GET / HTTP/1.1" 404 2399
+ERROR 2024-02-26 01:01:31,546 log 22152 23716 Internal Server Error: /edit_product/product/1/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp_2_product.photo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 39, in add_or_edit_product
+    product = Product.objects.get(pk=product_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp_2_product.photo
+ERROR 2024-02-26 01:01:31,556 basehttp 22152 23716 "GET /edit_product/product/1/ HTTP/1.1" 500 138400
+ERROR 2024-02-26 01:01:59,757 log 22152 23716 Internal Server Error: /edit_product/product/1/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp_2_product.photo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 39, in add_or_edit_product
+    product = Product.objects.get(pk=product_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp_2_product.photo
+ERROR 2024-02-26 01:01:59,762 basehttp 22152 23716 "GET /edit_product/product/1/ HTTP/1.1" 500 138537
+INFO 2024-02-26 01:07:46,994 autoreload 22152 8676 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\models.py changed, reloading.
+INFO 2024-02-26 01:07:47,637 autoreload 21908 23644 Watching for file changes with StatReloader
+ERROR 2024-02-26 01:08:28,046 log 21908 23576 Internal Server Error: /edit_product/product/1/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp_2_product.photo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 39, in add_or_edit_product
+    product = Product.objects.get(pk=product_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp_2_product.photo
+ERROR 2024-02-26 01:08:28,050 basehttp 21908 23576 "GET /edit_product/product/1/ HTTP/1.1" 500 138537
+INFO 2024-02-26 01:09:10,007 autoreload 21908 23644 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:09:10,456 autoreload 17008 20124 Watching for file changes with StatReloader
+INFO 2024-02-26 01:09:19,696 autoreload 17008 20124 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:09:20,079 autoreload 19304 23964 Watching for file changes with StatReloader
+INFO 2024-02-26 01:09:23,335 autoreload 19304 23964 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:09:23,909 autoreload 23532 23488 Watching for file changes with StatReloader
+INFO 2024-02-26 01:09:30,108 autoreload 23532 23488 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:09:30,530 autoreload 13432 23352 Watching for file changes with StatReloader
+INFO 2024-02-26 01:09:38,855 autoreload 13432 23352 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:09:39,315 autoreload 21872 19188 Watching for file changes with StatReloader
+INFO 2024-02-26 01:09:53,593 autoreload 21872 19188 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:09:54,028 autoreload 15200 17700 Watching for file changes with StatReloader
+INFO 2024-02-26 01:10:03,367 autoreload 15200 17700 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:10:03,867 autoreload 2928 23872 Watching for file changes with StatReloader
+INFO 2024-02-26 01:10:08,128 autoreload 2928 23872 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:10:08,742 autoreload 22612 9448 Watching for file changes with StatReloader
+INFO 2024-02-26 01:10:26,239 autoreload 22612 9448 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:10:26,740 autoreload 23576 22312 Watching for file changes with StatReloader
+INFO 2024-02-26 01:10:36,079 autoreload 23576 22312 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:10:36,599 autoreload 18952 3168 Watching for file changes with StatReloader
+INFO 2024-02-26 01:11:17,448 autoreload 18952 3168 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:11:17,894 autoreload 8804 1644 Watching for file changes with StatReloader
+ERROR 2024-02-26 01:11:18,460 log 8804 22056 Internal Server Error: /edit_product/product/1/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp_2_product.photo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 39, in add_or_edit_product
+    product = Product.objects.get(pk=product_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp_2_product.photo
+ERROR 2024-02-26 01:11:18,465 basehttp 8804 22056 "GET /edit_product/product/1/ HTTP/1.1" 500 138537
+INFO 2024-02-26 01:11:59,737 autoreload 8804 1644 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\urls.py changed, reloading.
+INFO 2024-02-26 01:12:00,230 autoreload 19544 24272 Watching for file changes with StatReloader
+ERROR 2024-02-26 01:12:01,285 log 19544 16216 Internal Server Error: /edit_product/product/1/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp_2_product.photo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 39, in add_or_edit_product
+    product = Product.objects.get(pk=product_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp_2_product.photo
+ERROR 2024-02-26 01:12:01,290 basehttp 19544 16216 "GET /edit_product/product/1/ HTTP/1.1" 500 138537
+ERROR 2024-02-26 01:12:02,103 log 19544 16216 Internal Server Error: /edit_product/product/1/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp_2_product.photo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 39, in add_or_edit_product
+    product = Product.objects.get(pk=product_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp_2_product.photo
+ERROR 2024-02-26 01:12:02,108 basehttp 19544 16216 "GET /edit_product/product/1/ HTTP/1.1" 500 138537
+INFO 2024-02-26 01:14:02,991 autoreload 19544 24272 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:14:03,442 autoreload 18588 24468 Watching for file changes with StatReloader
+INFO 2024-02-26 01:14:09,677 autoreload 18588 24468 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:14:10,138 autoreload 24096 23676 Watching for file changes with StatReloader
+INFO 2024-02-26 01:14:26,467 autoreload 24096 23676 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:14:26,987 autoreload 20776 23460 Watching for file changes with StatReloader
+ERROR 2024-02-26 01:14:27,536 log 20776 23420 Internal Server Error: /edit_product/product/1/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp_2_product.photo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 40, in add_or_edit_product
+    product = Product.objects.get(pk=product_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp_2_product.photo
+ERROR 2024-02-26 01:14:27,541 basehttp 20776 23420 "GET /edit_product/product/1/ HTTP/1.1" 500 138537
+INFO 2024-02-26 01:17:06,325 autoreload 19664 15004 Watching for file changes with StatReloader
+INFO 2024-02-26 01:17:06,500 basehttp 19664 19212 "GET /edit_product/product/1/ HTTP/1.1" 200 3213
+INFO 2024-02-26 01:17:06,548 basehttp 19664 19212 "GET /static/img/logo.png HTTP/1.1" 200 7903
+INFO 2024-02-26 01:17:06,550 basehttp 19664 19212 "GET /static/css/base.css HTTP/1.1" 304 0
+WARNING 2024-02-26 01:17:06,675 basehttp 19664 19212 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+WARNING 2024-02-26 01:17:08,595 log 19664 14768 Not Found: /
+WARNING 2024-02-26 01:17:08,596 basehttp 19664 14768 "GET / HTTP/1.1" 404 2399
+ERROR 2024-02-26 01:19:24,138 log 19664 14768 Internal Server Error: /edit_product/product/1/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 47, in add_or_edit_product
+    image = form.cleaned_data['image']
+            ~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'image'
+ERROR 2024-02-26 01:19:24,143 basehttp 19664 14768 "POST /edit_product/product/1/ HTTP/1.1" 500 69135
+INFO 2024-02-26 01:20:44,859 autoreload 19664 15004 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:20:45,432 autoreload 3580 16512 Watching for file changes with StatReloader
+ERROR 2024-02-26 01:20:47,556 log 3580 19072 Internal Server Error: /edit_product/product/1/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 47, in add_or_edit_product
+    image = form.cleaned_data['image']
+            ~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'image'
+ERROR 2024-02-26 01:20:47,557 basehttp 3580 19072 "POST /edit_product/product/1/ HTTP/1.1" 500 69128
+INFO 2024-02-26 01:20:53,984 autoreload 3580 16512 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:20:54,531 autoreload 18296 22216 Watching for file changes with StatReloader
+INFO 2024-02-26 01:23:43,979 autoreload 18296 22216 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:23:44,693 autoreload 18520 13556 Watching for file changes with StatReloader
+ERROR 2024-02-26 01:23:45,772 log 18520 20124 Internal Server Error: /edit_product/product/1/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 47, in add_or_edit_product
+    photo = form.cleaned_data['image']
+            ~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'image'
+ERROR 2024-02-26 01:23:45,774 basehttp 18520 20124 "POST /edit_product/product/1/ HTTP/1.1" 500 69135
+ERROR 2024-02-26 01:23:50,940 log 18520 20124 Internal Server Error: /edit_product/product/1/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 47, in add_or_edit_product
+    photo = form.cleaned_data['image']
+            ~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'image'
+ERROR 2024-02-26 01:23:50,941 basehttp 18520 20124 "POST /edit_product/product/1/ HTTP/1.1" 500 69135
+INFO 2024-02-26 01:24:11,469 autoreload 18520 13556 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:24:11,944 autoreload 18192 17140 Watching for file changes with StatReloader
+ERROR 2024-02-26 01:24:13,098 log 18192 1644 Internal Server Error: /edit_product/product/1/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 50, in add_or_edit_product
+    return redirect('product_list')
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'product_list' not found. 'product_list' is not a valid view function or pattern name.
+ERROR 2024-02-26 01:24:13,102 basehttp 18192 1644 "POST /edit_product/product/1/ HTTP/1.1" 500 88393
+INFO 2024-02-26 01:27:14,117 autoreload 18192 17140 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:27:14,929 autoreload 18296 20564 Watching for file changes with StatReloader
+ERROR 2024-02-26 01:27:35,484 log 18296 18588 Internal Server Error: /edit_product/product/1/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 51, in add_or_edit_product
+    return redirect('product_list')
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'product_list' not found. 'product_list' is not a valid view function or pattern name.
+ERROR 2024-02-26 01:27:35,487 basehttp 18296 18588 "POST /edit_product/product/1/ HTTP/1.1" 500 87938
+INFO 2024-02-26 01:29:40,310 autoreload 18296 20564 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:29:40,808 autoreload 23116 18896 Watching for file changes with StatReloader
+INFO 2024-02-26 01:29:42,044 basehttp 23116 13336 "POST /edit_product/product/1/ HTTP/1.1" 200 3310
+WARNING 2024-02-26 01:29:42,097 basehttp 23116 13336 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-26 01:29:48,715 basehttp 23116 18808 "POST /edit_product/product/1/ HTTP/1.1" 200 3310
+WARNING 2024-02-26 01:29:48,755 basehttp 23116 18808 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-26 01:29:49,891 basehttp 23116 22220 "POST /edit_product/product/1/ HTTP/1.1" 200 3310
+WARNING 2024-02-26 01:29:49,931 basehttp 23116 22220 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+WARNING 2024-02-26 01:29:52,332 log 23116 23296 Not Found: /media/mango-shake-fresh-tropical-fruit-smoothies_7sjnVvj.jpg
+WARNING 2024-02-26 01:29:52,332 basehttp 23116 23296 "GET /media/mango-shake-fresh-tropical-fruit-smoothies_7sjnVvj.jpg HTTP/1.1" 404 2597
+INFO 2024-02-26 01:30:52,919 autoreload 23116 18896 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:30:53,566 autoreload 19348 6656 Watching for file changes with StatReloader
+INFO 2024-02-26 01:32:17,022 autoreload 19348 6656 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:32:17,413 autoreload 15348 20056 Watching for file changes with StatReloader
+INFO 2024-02-26 01:32:35,770 autoreload 15348 20056 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:32:36,147 autoreload 20564 18296 Watching for file changes with StatReloader
+WARNING 2024-02-26 01:32:38,097 log 20564 2928 Not Found: /
+WARNING 2024-02-26 01:32:38,099 basehttp 20564 2928 "GET / HTTP/1.1" 404 2399
+INFO 2024-02-26 01:32:45,288 basehttp 20564 2928 "POST /edit_product/product/1/ HTTP/1.1" 200 3310
+WARNING 2024-02-26 01:32:45,334 basehttp 20564 2928 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-26 01:32:48,850 basehttp 20564 10872 "POST /edit_product/product/1/ HTTP/1.1" 200 3310
+WARNING 2024-02-26 01:32:48,891 basehttp 20564 10872 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-26 01:32:51,256 basehttp 20564 21968 "POST /edit_product/product/1/ HTTP/1.1" 200 3310
+WARNING 2024-02-26 01:32:51,292 basehttp 20564 21968 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-26 01:33:05,088 basehttp 20564 23240 "GET /edit_product/product/2/ HTTP/1.1" 200 3149
+WARNING 2024-02-26 01:33:05,154 basehttp 20564 23240 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+ERROR 2024-02-26 01:33:08,362 log 20564 5928 Internal Server Error: /edit_product/product/2/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 49, in add_or_edit_product
+    fs.save(photo.name, photo)
+            ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+ERROR 2024-02-26 01:33:08,363 basehttp 20564 5928 "POST /edit_product/product/2/ HTTP/1.1" 500 69430
+ERROR 2024-02-26 01:33:21,215 log 20564 5928 Internal Server Error: /edit_product/product/2/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 49, in add_or_edit_product
+    fs.save(photo.name, photo)
+            ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+ERROR 2024-02-26 01:33:21,218 basehttp 20564 5928 "POST /edit_product/product/2/ HTTP/1.1" 500 69430
+INFO 2024-02-26 01:34:48,502 autoreload 20564 18296 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:34:48,969 autoreload 17148 13832 Watching for file changes with StatReloader
+INFO 2024-02-26 01:35:03,411 autoreload 17148 13832 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:35:03,923 autoreload 18636 20916 Watching for file changes with StatReloader
+INFO 2024-02-26 01:35:10,094 autoreload 18636 20916 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:35:10,532 autoreload 13356 2868 Watching for file changes with StatReloader
+INFO 2024-02-26 01:35:16,825 autoreload 13356 2868 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:35:17,259 autoreload 15348 22224 Watching for file changes with StatReloader
+INFO 2024-02-26 01:35:42,920 autoreload 15348 22224 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:35:43,393 autoreload 7176 15772 Watching for file changes with StatReloader
+INFO 2024-02-26 01:35:50,707 autoreload 7176 15772 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:35:51,240 autoreload 13024 4480 Watching for file changes with StatReloader
+INFO 2024-02-26 01:36:42,316 autoreload 13024 4480 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:36:42,780 autoreload 19440 6756 Watching for file changes with StatReloader
+INFO 2024-02-26 01:37:02,140 basehttp 19440 3576 "POST /edit_product/product/2/ HTTP/1.1" 200 3153
+WARNING 2024-02-26 01:37:02,187 basehttp 19440 3576 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+ERROR 2024-02-26 01:37:21,669 log 19440 15120 Internal Server Error: /edit_product/product/2/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 53, in add_or_edit_product
+    fs.save(photo.name, photo)
+            ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+ERROR 2024-02-26 01:37:21,672 basehttp 19440 15120 "POST /edit_product/product/2/ HTTP/1.1" 500 69620
+INFO 2024-02-26 01:38:05,163 autoreload 19440 6756 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:38:05,737 autoreload 19832 14712 Watching for file changes with StatReloader
+ERROR 2024-02-26 01:38:06,621 log 19832 22816 Internal Server Error: /edit_product/product/2/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 53, in add_or_edit_product
+    fs.save(photo)
+TypeError: Storage.save() missing 1 required positional argument: 'content'
+ERROR 2024-02-26 01:38:06,623 basehttp 19832 22816 "POST /edit_product/product/2/ HTTP/1.1" 500 69605
+ERROR 2024-02-26 01:38:18,170 log 19832 22816 Internal Server Error: /edit_product/product/2/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py", line 53, in add_or_edit_product
+    fs.save(photo)
+TypeError: Storage.save() missing 1 required positional argument: 'content'
+ERROR 2024-02-26 01:38:18,172 basehttp 19832 22816 "POST /edit_product/product/2/ HTTP/1.1" 500 69605
+INFO 2024-02-26 01:39:11,408 autoreload 19832 14712 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:39:12,127 autoreload 8892 23928 Watching for file changes with StatReloader
+INFO 2024-02-26 01:40:07,336 autoreload 8892 23928 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:40:08,214 autoreload 18592 7704 Watching for file changes with StatReloader
+INFO 2024-02-26 01:40:20,490 autoreload 18592 7704 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:40:20,967 autoreload 22544 3292 Watching for file changes with StatReloader
+INFO 2024-02-26 01:40:28,275 autoreload 22544 3292 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:40:29,024 autoreload 1840 24500 Watching for file changes with StatReloader
+INFO 2024-02-26 01:40:40,455 autoreload 1840 24500 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\views.py changed, reloading.
+INFO 2024-02-26 01:40:40,955 autoreload 4420 24168 Watching for file changes with StatReloader
+INFO 2024-02-26 01:40:45,336 basehttp 4420 20700 "POST /edit_product/product/2/ HTTP/1.1" 200 3153
+WARNING 2024-02-26 01:40:45,393 basehttp 4420 20700 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-26 01:40:46,640 basehttp 4420 22312 "POST /edit_product/product/2/ HTTP/1.1" 200 3153
+WARNING 2024-02-26 01:40:46,687 basehttp 4420 22312 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-26 01:40:49,195 basehttp 4420 22480 "POST /edit_product/product/2/ HTTP/1.1" 200 3153
+WARNING 2024-02-26 01:40:49,238 basehttp 4420 22480 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-26 01:40:50,073 basehttp 4420 19780 "POST /edit_product/product/2/ HTTP/1.1" 200 3153
+WARNING 2024-02-26 01:40:50,114 basehttp 4420 19780 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-26 01:41:49,718 basehttp 4420 17428 "POST /edit_product/product/2/ HTTP/1.1" 200 3153
+WARNING 2024-02-26 01:41:49,766 basehttp 4420 17428 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816

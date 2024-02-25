@@ -1,0 +1,12 @@
+{% extends 'myapp_2/main.html' %}
+
+{% block title %}Добавление/изменение продукта{% endblock %}
+
+{% block content %}
+    <h1>Добавление/изменение продукта</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Сохранить</button>
+    </form>
+{% endblock %}
