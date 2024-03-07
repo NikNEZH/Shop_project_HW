@@ -930,3 +930,916 @@ INFO 2024-02-26 01:40:50,073 basehttp 4420 19780 "POST /edit_product/product/2/ 
 WARNING 2024-02-26 01:40:50,114 basehttp 4420 19780 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
 INFO 2024-02-26 01:41:49,718 basehttp 4420 17428 "POST /edit_product/product/2/ HTTP/1.1" 200 3153
 WARNING 2024-02-26 01:41:49,766 basehttp 4420 17428 "GET /static/main/img/Logo_2.png HTTP/1.1" 404 1816
+INFO 2024-02-29 21:17:33,219 autoreload 15920 20240 Watching for file changes with StatReloader
+WARNING 2024-02-29 21:17:35,278 log 15920 6596 Not Found: /
+WARNING 2024-02-29 21:17:35,318 basehttp 15920 6596 "GET / HTTP/1.1" 404 2399
+INFO 2024-02-29 21:17:53,242 basehttp 15920 6596 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-02-29 21:17:53,565 basehttp 15920 6596 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-02-29 21:17:54,012 basehttp 15920 6752 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-02-29 21:17:54,039 basehttp 15920 17848 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-02-29 21:17:54,042 basehttp 15920 6596 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-02-29 21:17:54,050 basehttp 15920 21236 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-02-29 21:17:54,053 basehttp 15920 6752 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-02-29 21:17:54,067 basehttp 15920 24636 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-02-29 21:17:54,076 basehttp 15920 14512 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-02-29 21:18:04,691 basehttp 15920 14512 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-02-29 21:18:04,770 basehttp 15920 14512 "GET /admin/ HTTP/1.1" 200 5944
+INFO 2024-02-29 21:18:04,806 basehttp 15920 14512 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-02-29 21:18:04,875 basehttp 15920 24636 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-02-29 21:18:04,875 basehttp 15920 14512 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-02-29 21:19:51,399 autoreload 15920 20240 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\models.py changed, reloading.
+INFO 2024-02-29 21:19:52,602 autoreload 16464 21500 Watching for file changes with StatReloader
+INFO 2024-02-29 21:21:23,543 autoreload 16464 21500 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 21:21:24,621 autoreload 9564 23188 Watching for file changes with StatReloader
+INFO 2024-02-29 21:21:41,605 autoreload 9564 23188 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 21:21:42,775 autoreload 14688 5528 Watching for file changes with StatReloader
+INFO 2024-02-29 22:02:26,509 autoreload 25884 18624 Watching for file changes with StatReloader
+INFO 2024-02-29 22:10:10,200 autoreload 7220 21044 Watching for file changes with StatReloader
+WARNING 2024-02-29 22:10:12,293 log 7220 13856 Not Found: /
+WARNING 2024-02-29 22:10:12,293 basehttp 7220 13856 "GET / HTTP/1.1" 404 2399
+INFO 2024-02-29 22:10:22,886 basehttp 7220 13856 "GET /admin/ HTTP/1.1" 200 6633
+INFO 2024-02-29 22:10:56,694 autoreload 7220 21044 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:10:57,111 autoreload 18000 22332 Watching for file changes with StatReloader
+INFO 2024-02-29 22:11:01,499 basehttp 18000 5344 "GET /admin/ HTTP/1.1" 200 7525
+INFO 2024-02-29 22:11:06,552 basehttp 18000 5344 "GET /admin/myapp_2/client/add/ HTTP/1.1" 200 12140
+INFO 2024-02-29 22:11:06,595 basehttp 18000 26048 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:11:06,662 basehttp 18000 5344 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-02-29 22:11:06,673 basehttp 18000 14188 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-02-29 22:11:06,681 basehttp 18000 5344 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-02-29 22:11:06,683 basehttp 18000 14188 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-02-29 22:11:06,683 basehttp 18000 25764 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-02-29 22:11:06,686 basehttp 18000 12112 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-02-29 22:11:06,690 basehttp 18000 26048 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-02-29 22:11:06,698 basehttp 18000 5344 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-02-29 22:11:06,698 basehttp 18000 14188 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-02-29 22:11:06,698 basehttp 18000 25764 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-02-29 22:11:06,705 basehttp 18000 26048 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-02-29 22:11:06,722 basehttp 18000 17132 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-02-29 22:11:06,739 basehttp 18000 17132 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-02-29 22:11:06,757 basehttp 18000 12112 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-02-29 22:11:06,793 basehttp 18000 12112 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-02-29 22:11:10,018 basehttp 18000 12112 "GET /admin/ HTTP/1.1" 200 7525
+INFO 2024-02-29 22:11:12,340 basehttp 18000 12112 "GET /admin/myapp_2/client/add/ HTTP/1.1" 200 12140
+INFO 2024-02-29 22:11:12,355 basehttp 18000 12112 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:11:15,125 basehttp 18000 12112 "GET /admin/ HTTP/1.1" 200 7525
+INFO 2024-02-29 22:11:17,222 basehttp 18000 12112 "GET /admin/myapp_2/order/add/ HTTP/1.1" 200 15371
+INFO 2024-02-29 22:11:17,236 basehttp 18000 17132 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:11:17,238 basehttp 18000 12112 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-02-29 22:11:42,602 basehttp 18000 12112 "GET /admin/ HTTP/1.1" 200 7525
+INFO 2024-02-29 22:11:45,714 basehttp 18000 12112 "GET /admin/myapp_2/order/add/ HTTP/1.1" 200 15371
+INFO 2024-02-29 22:11:45,728 basehttp 18000 12112 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:12:01,870 basehttp 18000 12112 "GET /admin/myapp_2/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7733
+INFO 2024-02-29 22:12:01,882 basehttp 18000 12112 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:12:18,312 basehttp 18000 12112 "GET /admin/ HTTP/1.1" 200 7525
+INFO 2024-02-29 22:12:21,124 basehttp 18000 12112 "GET /admin/myapp_2/client/add/ HTTP/1.1" 200 12140
+INFO 2024-02-29 22:12:21,137 basehttp 18000 12112 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:12:23,301 basehttp 18000 12112 "GET /admin/ HTTP/1.1" 200 7525
+INFO 2024-02-29 22:12:24,613 basehttp 18000 12112 "GET /admin/myapp_2/order/add/ HTTP/1.1" 200 15371
+INFO 2024-02-29 22:12:24,629 basehttp 18000 12112 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:12:31,053 basehttp 18000 12112 "GET /admin/myapp_2/client/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7174
+INFO 2024-02-29 22:12:31,069 basehttp 18000 12112 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:12:36,488 basehttp 18000 12112 "GET /admin/ HTTP/1.1" 200 7525
+INFO 2024-02-29 22:13:01,392 autoreload 18000 22332 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\urls.py changed, reloading.
+INFO 2024-02-29 22:13:02,033 autoreload 21204 4716 Watching for file changes with StatReloader
+INFO 2024-02-29 22:13:51,581 basehttp 21204 16460 "GET /admin/myapp_2/product/add/ HTTP/1.1" 200 12702
+INFO 2024-02-29 22:13:51,599 basehttp 21204 16460 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:15:14,830 basehttp 21204 16460 "GET /admin/myapp_2/client/ HTTP/1.1" 200 12731
+INFO 2024-02-29 22:15:14,843 basehttp 21204 3752 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:15:14,875 basehttp 21204 16460 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-02-29 22:15:14,893 basehttp 21204 16460 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-02-29 22:15:14,900 basehttp 21204 16460 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-02-29 22:15:17,715 basehttp 21204 16460 "GET /admin/myapp_2/order/ HTTP/1.1" 200 14332
+INFO 2024-02-29 22:15:17,729 basehttp 21204 16460 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:15:21,048 basehttp 21204 16460 "GET /admin/myapp_2/order/5/change/ HTTP/1.1" 200 16201
+INFO 2024-02-29 22:15:21,065 basehttp 21204 16460 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:15:30,879 basehttp 21204 16460 "GET /admin/myapp_2/order/ HTTP/1.1" 200 14332
+INFO 2024-02-29 22:15:30,892 basehttp 21204 16460 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:15:54,533 basehttp 21204 16460 "GET /admin/myapp_2/client/ HTTP/1.1" 200 12731
+INFO 2024-02-29 22:15:54,548 basehttp 21204 16460 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:15:56,616 basehttp 21204 16460 "GET /admin/myapp_2/product/ HTTP/1.1" 200 13341
+INFO 2024-02-29 22:15:56,629 basehttp 21204 16460 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:18:13,236 autoreload 21204 4716 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:18:13,687 autoreload 25448 1488 Watching for file changes with StatReloader
+INFO 2024-02-29 22:18:25,082 autoreload 25448 1488 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:18:25,549 autoreload 5256 22084 Watching for file changes with StatReloader
+INFO 2024-02-29 22:18:36,923 autoreload 5256 22084 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:18:37,334 autoreload 6776 16128 Watching for file changes with StatReloader
+INFO 2024-02-29 22:18:44,639 autoreload 6776 16128 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:18:45,033 autoreload 22748 25968 Watching for file changes with StatReloader
+INFO 2024-02-29 22:19:04,462 autoreload 22748 25968 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:19:04,894 autoreload 2952 14400 Watching for file changes with StatReloader
+INFO 2024-02-29 22:19:29,515 autoreload 2952 14400 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:19:29,952 autoreload 21404 25220 Watching for file changes with StatReloader
+INFO 2024-02-29 22:19:48,436 autoreload 21404 25220 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:19:48,915 autoreload 24048 23868 Watching for file changes with StatReloader
+INFO 2024-02-29 22:19:49,726 basehttp 24048 25024 "GET /admin/myapp_2/product/ HTTP/1.1" 200 12681
+INFO 2024-02-29 22:19:49,745 basehttp 24048 25024 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:19:55,579 basehttp 24048 25024 "GET /admin/myapp_2/order/ HTTP/1.1" 200 14332
+INFO 2024-02-29 22:19:55,593 basehttp 24048 25024 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:20:03,868 basehttp 24048 25024 "GET /admin/myapp_2/client/ HTTP/1.1" 200 12731
+INFO 2024-02-29 22:20:03,886 basehttp 24048 25024 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:20:05,336 basehttp 24048 25024 "GET /admin/myapp_2/product/ HTTP/1.1" 200 12681
+INFO 2024-02-29 22:20:05,352 basehttp 24048 25024 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:20:11,657 basehttp 24048 25024 "GET /admin/myapp_2/product/3/change/ HTTP/1.1" 200 13612
+INFO 2024-02-29 22:20:11,671 basehttp 24048 25024 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:20:29,750 basehttp 24048 25024 "POST /admin/myapp_2/product/3/change/ HTTP/1.1" 302 0
+INFO 2024-02-29 22:20:29,767 basehttp 24048 25024 "GET /admin/myapp_2/product/ HTTP/1.1" 200 13129
+INFO 2024-02-29 22:20:29,786 basehttp 24048 25024 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:20:29,854 basehttp 24048 25024 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-02-29 22:20:34,721 basehttp 24048 25024 "GET /admin/myapp_2/product/4/change/ HTTP/1.1" 200 13772
+INFO 2024-02-29 22:20:34,735 basehttp 24048 25024 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:20:45,076 basehttp 24048 25024 "POST /admin/myapp_2/product/4/change/ HTTP/1.1" 302 0
+INFO 2024-02-29 22:20:45,096 basehttp 24048 25024 "GET /admin/myapp_2/product/ HTTP/1.1" 200 13199
+INFO 2024-02-29 22:20:45,117 basehttp 24048 25024 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:21:51,536 autoreload 24048 23868 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:21:51,987 autoreload 18536 2528 Watching for file changes with StatReloader
+INFO 2024-02-29 22:21:53,187 basehttp 18536 22392 "GET /admin/myapp_2/order/ HTTP/1.1" 200 14332
+INFO 2024-02-29 22:21:53,207 basehttp 18536 22392 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:21:55,537 basehttp 18536 22392 "GET /admin/myapp_2/order/ HTTP/1.1" 200 14332
+INFO 2024-02-29 22:21:55,556 basehttp 18536 22392 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:22:17,868 autoreload 18536 2528 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:22:18,332 autoreload 17216 24668 Watching for file changes with StatReloader
+INFO 2024-02-29 22:22:18,552 basehttp 17216 24464 "GET /admin/myapp_2/order/ HTTP/1.1" 200 14332
+INFO 2024-02-29 22:22:18,569 basehttp 17216 24464 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:22:20,549 basehttp 17216 24464 "GET /admin/myapp_2/client/ HTTP/1.1" 200 12731
+INFO 2024-02-29 22:22:20,563 basehttp 17216 24464 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:22:21,312 basehttp 17216 24464 "GET /admin/myapp_2/order/ HTTP/1.1" 200 14332
+INFO 2024-02-29 22:22:21,325 basehttp 17216 24464 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:22:22,625 basehttp 17216 24464 "GET /admin/myapp_2/order/6/change/ HTTP/1.1" 200 16224
+INFO 2024-02-29 22:22:22,639 basehttp 17216 24464 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:22:28,350 basehttp 17216 24464 "GET /admin/myapp_2/order/ HTTP/1.1" 200 14332
+INFO 2024-02-29 22:22:28,365 basehttp 17216 24464 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:22:53,351 autoreload 17216 24668 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:22:53,942 autoreload 25660 25396 Watching for file changes with StatReloader
+INFO 2024-02-29 22:23:46,931 autoreload 25660 25396 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:23:47,496 autoreload 25272 2944 Watching for file changes with StatReloader
+INFO 2024-02-29 22:24:28,299 autoreload 25272 2944 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:24:28,693 autoreload 4312 23052 Watching for file changes with StatReloader
+INFO 2024-02-29 22:24:36,989 autoreload 4312 23052 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:24:37,369 autoreload 10548 14548 Watching for file changes with StatReloader
+INFO 2024-02-29 22:24:40,495 basehttp 10548 5036 "GET /admin/myapp_2/order/ HTTP/1.1" 200 13203
+INFO 2024-02-29 22:24:40,514 basehttp 10548 5036 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:24:57,981 autoreload 10548 14548 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:24:58,407 autoreload 11684 25648 Watching for file changes with StatReloader
+INFO 2024-02-29 22:25:13,847 autoreload 11684 25648 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:25:14,254 autoreload 7440 13012 Watching for file changes with StatReloader
+INFO 2024-02-29 22:28:04,825 autoreload 7440 13012 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\models.py changed, reloading.
+INFO 2024-02-29 22:28:05,206 autoreload 15008 15788 Watching for file changes with StatReloader
+INFO 2024-02-29 22:28:49,059 autoreload 15008 15788 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\models.py changed, reloading.
+INFO 2024-02-29 22:28:49,498 autoreload 22232 24100 Watching for file changes with StatReloader
+INFO 2024-02-29 22:34:23,728 autoreload 22232 24100 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:34:24,160 autoreload 8844 22648 Watching for file changes with StatReloader
+INFO 2024-02-29 22:34:27,613 basehttp 8844 23732 "GET /admin/myapp_2/order/ HTTP/1.1" 200 15179
+INFO 2024-02-29 22:34:27,642 basehttp 8844 23732 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:34:56,080 autoreload 8844 22648 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:34:56,529 autoreload 16172 14712 Watching for file changes with StatReloader
+INFO 2024-02-29 22:34:58,089 basehttp 16172 25896 "GET /admin/myapp_2/order/ HTTP/1.1" 200 13605
+INFO 2024-02-29 22:34:58,109 basehttp 16172 25896 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:35:01,855 basehttp 16172 25896 "GET /admin/myapp_2/order/6/change/ HTTP/1.1" 200 16224
+INFO 2024-02-29 22:35:01,869 basehttp 16172 25896 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:35:23,986 basehttp 16172 25896 "GET /admin/myapp_2/order/ HTTP/1.1" 200 13605
+INFO 2024-02-29 22:46:20,164 autoreload 16172 14712 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:46:21,023 autoreload 18152 11276 Watching for file changes with StatReloader
+INFO 2024-02-29 22:46:21,402 basehttp 18152 15556 "GET /admin/myapp_2/order/ HTTP/1.1" 200 14020
+INFO 2024-02-29 22:46:21,431 basehttp 18152 15556 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:46:44,801 basehttp 18152 15556 "GET /admin/myapp_2/order/5/change/ HTTP/1.1" 200 16224
+INFO 2024-02-29 22:46:44,816 basehttp 18152 15556 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:46:50,740 basehttp 18152 15556 "GET /admin/myapp_2/order/ HTTP/1.1" 200 14020
+INFO 2024-02-29 22:46:58,410 basehttp 18152 15556 "POST /admin/myapp_2/order/ HTTP/1.1" 200 9311
+INFO 2024-02-29 22:46:58,463 basehttp 18152 15556 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-02-29 22:47:02,875 basehttp 18152 15556 "POST /admin/myapp_2/order/ HTTP/1.1" 302 0
+INFO 2024-02-29 22:47:02,900 basehttp 18152 15556 "GET /admin/myapp_2/order/ HTTP/1.1" 200 12855
+INFO 2024-02-29 22:47:02,919 basehttp 18152 15556 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:49:16,046 autoreload 18152 11276 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:49:16,935 autoreload 23556 22724 Watching for file changes with StatReloader
+INFO 2024-02-29 22:49:52,724 autoreload 23556 22724 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:49:53,125 autoreload 24432 16860 Watching for file changes with StatReloader
+INFO 2024-02-29 22:49:56,138 basehttp 24432 18652 "GET /admin/myapp_2/order/ HTTP/1.1" 200 12720
+INFO 2024-02-29 22:49:56,153 basehttp 24432 18652 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:50:00,299 basehttp 24432 18652 "GET /admin/myapp_2/order/ HTTP/1.1" 200 12720
+INFO 2024-02-29 22:50:00,312 basehttp 24432 18652 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:50:26,995 autoreload 24432 16860 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:50:27,463 autoreload 13832 24940 Watching for file changes with StatReloader
+ERROR 2024-02-29 22:50:27,794 log 13832 11940 Internal Server Error: /admin/myapp_2/order/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\options.py", line 681, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'get_client_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 289, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 322, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\options.py", line 683, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Order has no field named 'get_client_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 345, in result_list
+    "results": list(results(cl)),
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 321, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in __init__
+    super().__init__(*items)
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 217, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 298, in lookup_field
+    value = attr(obj)
+            ^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py", line 17, in get_client_list
+    return ", ".join([client.name for client in obj.client.all()])
+                                                ^^^^^^^^^^^^^^
+AttributeError: 'Client' object has no attribute 'all'
+ERROR 2024-02-29 22:50:27,802 basehttp 13832 11940 "GET /admin/myapp_2/order/ HTTP/1.1" 500 391656
+INFO 2024-02-29 22:53:08,008 autoreload 13832 24940 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:53:08,418 autoreload 2820 6776 Watching for file changes with StatReloader
+ERROR 2024-02-29 22:53:14,450 log 2820 19604 Internal Server Error: /admin/myapp_2/order/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\options.py", line 681, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'get_client_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 289, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 322, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\options.py", line 683, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Order has no field named 'get_client_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 345, in result_list
+    "results": list(results(cl)),
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 321, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in __init__
+    super().__init__(*items)
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 217, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 298, in lookup_field
+    value = attr(obj)
+            ^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py", line 17, in get_client_list
+    return ", ".join([client.name for client in obj.client.name])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py", line 17, in <listcomp>
+    return ", ".join([client.name for client in obj.client.name])
+                      ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'name'
+ERROR 2024-02-29 22:53:14,457 basehttp 2820 19604 "GET /admin/myapp_2/order/ HTTP/1.1" 500 395682
+ERROR 2024-02-29 22:53:16,947 log 2820 19604 Internal Server Error: /admin/myapp_2/order/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\options.py", line 681, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'get_client_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 289, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 322, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\options.py", line 683, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Order has no field named 'get_client_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 345, in result_list
+    "results": list(results(cl)),
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 321, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in __init__
+    super().__init__(*items)
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 217, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 298, in lookup_field
+    value = attr(obj)
+            ^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py", line 17, in get_client_list
+    return ", ".join([client.name for client in obj.client.name])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py", line 17, in <listcomp>
+    return ", ".join([client.name for client in obj.client.name])
+                      ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'name'
+ERROR 2024-02-29 22:53:16,956 basehttp 2820 19604 "GET /admin/myapp_2/order/ HTTP/1.1" 500 395682
+ERROR 2024-02-29 22:53:17,640 log 2820 19604 Internal Server Error: /admin/myapp_2/order/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\options.py", line 681, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'get_client_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 289, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 322, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\options.py", line 683, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Order has no field named 'get_client_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 345, in result_list
+    "results": list(results(cl)),
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 321, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in __init__
+    super().__init__(*items)
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 217, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 298, in lookup_field
+    value = attr(obj)
+            ^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py", line 17, in get_client_list
+    return ", ".join([client.name for client in obj.client.name])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py", line 17, in <listcomp>
+    return ", ".join([client.name for client in obj.client.name])
+                      ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'name'
+ERROR 2024-02-29 22:53:17,653 basehttp 2820 19604 "GET /admin/myapp_2/order/ HTTP/1.1" 500 395682
+ERROR 2024-02-29 22:53:18,736 log 2820 19604 Internal Server Error: /admin/myapp_2/order/
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\options.py", line 681, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'get_client_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 289, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 322, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\db\models\options.py", line 683, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Order has no field named 'get_client_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 345, in result_list
+    "results": list(results(cl)),
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 321, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in __init__
+    super().__init__(*items)
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 217, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\venv\Lib\site-packages\django\contrib\admin\utils.py", line 298, in lookup_field
+    value = attr(obj)
+            ^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py", line 17, in get_client_list
+    return ", ".join([client.name for client in obj.client.name])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py", line 17, in <listcomp>
+    return ", ".join([client.name for client in obj.client.name])
+                      ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'name'
+ERROR 2024-02-29 22:53:18,746 basehttp 2820 19604 "GET /admin/myapp_2/order/ HTTP/1.1" 500 395682
+INFO 2024-02-29 22:54:43,966 autoreload 2820 6776 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:54:44,360 autoreload 11888 26148 Watching for file changes with StatReloader
+INFO 2024-02-29 22:56:47,836 autoreload 11888 26148 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 22:56:48,232 autoreload 16432 9388 Watching for file changes with StatReloader
+WARNING 2024-02-29 22:56:50,694 log 16432 24568 Not Found: /
+WARNING 2024-02-29 22:56:50,695 basehttp 16432 24568 "GET / HTTP/1.1" 404 2399
+INFO 2024-02-29 22:56:54,959 basehttp 16432 24568 "GET /admin/myapp_2/order/ HTTP/1.1" 200 13077
+INFO 2024-02-29 22:56:54,980 basehttp 16432 24568 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:56:58,039 basehttp 16432 24568 "GET /admin/myapp_2/order/6/change/ HTTP/1.1" 200 16224
+INFO 2024-02-29 22:56:58,056 basehttp 16432 24568 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 22:56:59,580 basehttp 16432 24568 "GET /admin/myapp_2/order/ HTTP/1.1" 200 13077
+INFO 2024-02-29 23:19:53,031 basehttp 16432 20152 "GET /admin/myapp_2/order/ HTTP/1.1" 200 13077
+INFO 2024-02-29 23:19:53,047 basehttp 16432 20152 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:19:55,231 basehttp 16432 20152 "GET /admin/myapp_2/product/ HTTP/1.1" 200 12725
+INFO 2024-02-29 23:19:55,246 basehttp 16432 20152 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:19:58,588 basehttp 16432 20152 "GET /admin/myapp_2/order/ HTTP/1.1" 200 13077
+INFO 2024-02-29 23:19:58,608 basehttp 16432 20152 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:19:59,254 basehttp 16432 20152 "GET /admin/myapp_2/client/ HTTP/1.1" 200 12731
+INFO 2024-02-29 23:19:59,271 basehttp 16432 20152 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:22:24,766 autoreload 16432 9388 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 23:22:25,610 autoreload 24336 7128 Watching for file changes with StatReloader
+INFO 2024-02-29 23:22:26,308 basehttp 24336 22376 "GET /admin/myapp_2/order/ HTTP/1.1" 200 13077
+INFO 2024-02-29 23:22:26,334 basehttp 24336 22376 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:22:27,372 basehttp 24336 22376 "GET /admin/myapp_2/client/ HTTP/1.1" 200 12731
+INFO 2024-02-29 23:22:27,388 basehttp 24336 22376 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:23:02,454 autoreload 24336 7128 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 23:23:02,865 autoreload 26176 16428 Watching for file changes with StatReloader
+INFO 2024-02-29 23:23:11,202 autoreload 26176 16428 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\myapp_2\admin.py changed, reloading.
+INFO 2024-02-29 23:23:11,646 autoreload 22440 16996 Watching for file changes with StatReloader
+INFO 2024-02-29 23:23:12,321 basehttp 22440 21368 "GET /admin/myapp_2/client/ HTTP/1.1" 200 12880
+INFO 2024-02-29 23:23:12,338 basehttp 22440 21368 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:23:28,633 basehttp 22440 21368 "GET /admin/myapp_2/client/5/change/ HTTP/1.1" 200 12954
+INFO 2024-02-29 23:23:28,653 basehttp 22440 21368 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:23:34,956 basehttp 22440 21368 "GET /admin/myapp_2/order/ HTTP/1.1" 200 13077
+INFO 2024-02-29 23:23:34,973 basehttp 22440 21368 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:23:37,278 basehttp 22440 21368 "GET /admin/myapp_2/client/ HTTP/1.1" 200 12880
+INFO 2024-02-29 23:23:37,299 basehttp 22440 21368 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:23:41,174 basehttp 22440 21368 "GET /admin/myapp_2/client/4/change/ HTTP/1.1" 200 12849
+INFO 2024-02-29 23:23:41,187 basehttp 22440 21368 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:23:44,621 basehttp 22440 21368 "GET /admin/myapp_2/client/ HTTP/1.1" 200 12880
+INFO 2024-02-29 23:23:44,640 basehttp 22440 21368 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:23:45,981 basehttp 22440 21368 "GET /admin/myapp_2/client/1/change/ HTTP/1.1" 200 12934
+INFO 2024-02-29 23:23:45,997 basehttp 22440 21368 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:23:53,573 basehttp 22440 21368 "GET /admin/myapp_2/client/ HTTP/1.1" 200 12880
+INFO 2024-02-29 23:23:53,594 basehttp 22440 21368 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:26:05,210 basehttp 22440 21368 "GET /admin/myapp_2/product/ HTTP/1.1" 200 12725
+INFO 2024-02-29 23:26:05,222 basehttp 22440 21368 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-02-29 23:26:06,483 basehttp 22440 21368 "GET /admin/myapp_2/product/5/change/ HTTP/1.1" 200 13694
+INFO 2024-02-29 23:26:06,502 basehttp 22440 21368 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
