@@ -32,7 +32,8 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
-    'KitAndQCompany.pythonanywhere.com'
+    '127.0.0.1',
+    'KitAndQCompany.pythonanywhere.com',
 ]
 
 
@@ -85,7 +86,7 @@ WSGI_APPLICATION = 'shop_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'KitAndQCompany$default',
         'USER': 'KitAndQCompany',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
