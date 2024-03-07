@@ -8,9 +8,9 @@ logger = logging.getLogger(__name__)
 
 def main(request):
     logger.info(f'Info page {object.__name__} accessed')
-    return render(request, 'shop/main.html')
+    return render(request, 'myapp_2/main.html')
 
 
 def about_us(request):
     logger.info(f'Info page {object.__name__} accessed')
-    return render(request, 'shop/about_us.html')
+    return render(request, 'myapp_2/order_client.html')
