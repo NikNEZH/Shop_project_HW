@@ -1843,3 +1843,15 @@ INFO 2024-02-29 23:26:05,210 basehttp 22440 21368 "GET /admin/myapp_2/product/ H
 INFO 2024-02-29 23:26:05,222 basehttp 22440 21368 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 INFO 2024-02-29 23:26:06,483 basehttp 22440 21368 "GET /admin/myapp_2/product/5/change/ HTTP/1.1" 200 13694
 INFO 2024-02-29 23:26:06,502 basehttp 22440 21368 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-07 21:30:50,912 autoreload 24700 22836 Watching for file changes with StatReloader
+INFO 2024-03-07 22:23:28,166 autoreload 10540 8964 Watching for file changes with StatReloader
+INFO 2024-03-07 22:27:42,677 autoreload 10540 8964 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\settings.py changed, reloading.
+INFO 2024-03-07 22:27:43,187 autoreload 19140 19340 Watching for file changes with StatReloader
+INFO 2024-03-07 22:27:50,525 autoreload 19140 19340 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\settings.py changed, reloading.
+INFO 2024-03-07 22:27:50,947 autoreload 23408 14056 Watching for file changes with StatReloader
+INFO 2024-03-07 22:27:57,225 autoreload 23408 14056 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\settings.py changed, reloading.
+INFO 2024-03-07 22:27:57,633 autoreload 18436 4548 Watching for file changes with StatReloader
+INFO 2024-03-07 22:28:04,947 autoreload 18436 4548 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\settings.py changed, reloading.
+INFO 2024-03-07 22:28:05,334 autoreload 16212 25028 Watching for file changes with StatReloader
+INFO 2024-03-07 22:30:23,717 autoreload 16212 25028 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\settings.py changed, reloading.
+INFO 2024-03-07 22:30:24,168 autoreload 9764 18820 Watching for file changes with StatReloader
