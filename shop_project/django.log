@@ -1855,3 +1855,4 @@ INFO 2024-03-07 22:28:04,947 autoreload 18436 4548 C:\Users\Никита\Desktop\DJANG
 INFO 2024-03-07 22:28:05,334 autoreload 16212 25028 Watching for file changes with StatReloader
 INFO 2024-03-07 22:30:23,717 autoreload 16212 25028 C:\Users\Никита\Desktop\DJANGO\ShopProject\Shop_project_HW\shop_project\shop_project\settings.py changed, reloading.
 INFO 2024-03-07 22:30:24,168 autoreload 9764 18820 Watching for file changes with StatReloader
+INFO 2024-03-07 22:34:32,330 autoreload 17992 23784 Watching for file changes with StatReloader
