@@ -1,7 +1,14 @@
-from django.shortcuts import render, get_object_or_404
+import logging
+
+from django.shortcuts import render, get_object_or_404, redirect
 from .models import Client, Product, Order
 from datetime import datetime, timedelta
 
+from .forms import ProductForm
+from django.core.files.storage import FileSystemStorage
+
+
+logger = logging.getLogger(__name__)
 
 def products_ordered(request, client_id):
     today = datetime.now().date()
@@ -30,3 +37,24 @@ def products_ordered(request, client_id):
     }
 
     return render(request, 'myapp_2/order_client.html', context)
+
+
+def add_or_edit_product(request, product_id=1):
+    if product_id:
+        product = Product.objects.get(pk=product_id)
+    else:
+        product = Product()
+
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES, instance=product)
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            form.save()
+            # photo = form.cleaned_data['photo']
+            # fs = FileSystemStorage()
+            # fs.save(photo)
+            logger.info(f'Получили{name=}')
+    else:
+        form = ProductForm(instance=product)
+
+    return render(request, 'myapp_2/add_or_edit_product.html', {'form': form})
